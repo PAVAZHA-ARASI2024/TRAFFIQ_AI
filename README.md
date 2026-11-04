@@ -185,7 +185,7 @@ TRAFFIQ_AI/
 |-- .gitignore
 |
 |-- assets/
-|   |-- CSS/
+|   |-- css/
 |
 |-- config/
 |   |-- lane_rois.json
