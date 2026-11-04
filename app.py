@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 BASE = Path(__file__).parent
-CSS_FILE = BASE / "assets" / "CSS" / "style.css"
+CSS_FILE = BASE / "assets" / "css" / "style.css"
 
 def load_css():
     if CSS_FILE.exists():
@@ -29,12 +29,11 @@ def load_css():
             )
 
 load_css()
-VIDEO_FILE = BASE / "runs" / "traffiq" / "lane_detection" / "lane_analytics_h264.mp4"
-ANALYTICS_FILE = BASE / "runs/traffiq/lane_detection/lane_analytics.csv"
+VIDEO_FILE = BASE / "deployment_data" / "lane_detection" / "lane_analytics_h264.mp4"
+ANALYTICS_FILE = BASE / "deployment_data" / "lane_detection" / "lane_analytics.csv"
 
-ADAPTIVE_FILE = BASE / "runs/traffiq/scheduler/adaptive_scheduler_log.csv"
-FIXED_FILE = BASE / "runs/traffiq/scheduler/fixed_time_scheduler_log.csv"
-
+ADAPTIVE_FILE = BASE / "deployment_data" / "scheduler" / "adaptive_scheduler_log.csv"
+FIXED_FILE = BASE / "deployment_data" / "scheduler" / "fixed_time_scheduler_log.csv"
 LANES = ["lane_1", "lane_2", "lane_3", "lane_4"]
 
 # ==========================================

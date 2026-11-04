@@ -1,0 +1,121 @@
+time_seconds,phase,active_lane,remaining_time,green_duration,selection_reason,lane_1_queue,lane_1_vehicles,lane_1_waiting,lane_1_gdc,lane_2_queue,lane_2_vehicles,lane_2_waiting,lane_2_gdc,lane_3_queue,lane_3_vehicles,lane_3_waiting,lane_3_gdc,lane_4_queue,lane_4_vehicles,lane_4_waiting,lane_4_gdc
+0,GREEN,lane_2,12,12,Highest traffic priority,1,1,0.3,1,1,1,0.63,0,0,0,0.0,0,0,2,0.0,1
+1,GREEN,lane_2,11,12,Highest traffic priority,1,1,0.5,2,1,1,1.63,0,0,0,0.0,0,0,3,0.0,2
+2,GREEN,lane_2,10,12,Highest traffic priority,1,1,1.5,3,1,2,2.63,0,0,0,0.0,0,0,3,0.0,3
+3,GREEN,lane_2,9,12,Highest traffic priority,1,1,0.87,4,2,2,0.47,0,0,0,0.0,0,0,2,0.0,4
+4,GREEN,lane_2,8,12,Highest traffic priority,1,1,1.87,5,2,2,1.47,0,0,0,0.0,0,0,1,0.0,5
+5,GREEN,lane_2,7,12,Highest traffic priority,1,1,2.87,6,1,1,2.87,0,0,0,0.0,0,0,2,0.0,6
+6,GREEN,lane_2,6,12,Highest traffic priority,1,3,3.87,7,0,1,0.0,0,0,0,0.0,0,0,1,0.0,7
+7,GREEN,lane_2,5,12,Highest traffic priority,3,3,2.02,8,0,1,0.0,0,0,0,0.0,0,0,0,0.0,0
+8,GREEN,lane_2,4,12,Highest traffic priority,3,3,3.02,9,0,1,0.0,0,0,0,0.0,0,0,0,0.0,0
+9,GREEN,lane_2,3,12,Highest traffic priority,3,3,4.02,10,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+10,GREEN,lane_2,2,12,Highest traffic priority,3,4,5.02,11,1,1,0.17,0,0,2,0.0,1,0,1,0.0,1
+11,GREEN,lane_2,1,12,Highest traffic priority,3,4,4.56,12,0,0,0.0,0,1,1,0.33,2,0,1,0.0,2
+12,YELLOW,lane_2,3,12,,4,4,5.49,13,1,1,1.43,1,2,2,0.93,3,0,0,0.0,0
+13,YELLOW,lane_2,2,12,,4,4,6.49,14,0,0,0.0,0,1,1,2.33,4,0,0,0.0,0
+14,YELLOW,lane_2,1,12,,5,5,6.69,15,0,1,0.0,1,1,1,3.33,5,0,0,0.0,0
+15,ALL_RED,NONE,1,12,,5,5,7.69,16,1,1,0.1,2,2,2,2.45,6,0,0,0.0,0
+16,GREEN,lane_1,22,22,Highest traffic priority,5,5,8.69,0,0,2,0.0,3,1,1,5.33,7,0,0,0.0,0
+17,GREEN,lane_1,21,22,Highest traffic priority,4,4,10.49,0,0,1,0.0,4,1,1,6.33,8,0,0,0.0,0
+18,GREEN,lane_1,20,22,Highest traffic priority,3,3,13.02,0,0,1,0.0,5,1,1,7.33,9,0,0,0.0,0
+19,GREEN,lane_1,19,22,Highest traffic priority,3,3,10.34,0,0,1,0.0,6,1,1,8.33,10,0,0,0.0,0
+20,GREEN,lane_1,18,22,Highest traffic priority,3,3,15.02,0,0,0,0.0,0,2,2,4.77,11,0,0,0.0,0
+21,GREEN,lane_1,17,22,Highest traffic priority,4,4,14.49,0,0,0,0.0,0,1,2,10.33,12,0,1,0.0,1
+22,GREEN,lane_1,16,22,Highest traffic priority,3,4,17.02,0,0,1,0.0,1,2,2,6.02,13,0,0,0.0,0
+23,GREEN,lane_1,15,22,Highest traffic priority,3,3,18.02,0,0,0,0.0,0,1,1,12.33,14,1,1,1.67,1
+24,GREEN,lane_1,14,22,Highest traffic priority,3,3,19.02,0,0,0,0.0,0,2,2,6.95,15,1,1,2.67,2
+25,GREEN,lane_1,13,22,Highest traffic priority,3,4,20.02,0,0,0,0.0,0,2,2,7.17,16,1,1,3.67,3
+26,GREEN,lane_1,12,22,Highest traffic priority,4,4,15.96,0,0,1,0.0,1,2,2,8.17,17,1,1,4.67,4
+27,GREEN,lane_1,11,22,Highest traffic priority,2,3,22.88,0,0,0,0.0,0,2,2,8.18,18,1,2,5.67,5
+28,GREEN,lane_1,10,22,Highest traffic priority,4,4,17.96,0,0,0,0.0,0,1,1,17.33,19,0,0,0.0,0
+29,GREEN,lane_1,9,22,Highest traffic priority,4,4,18.96,0,0,0,0.0,0,1,1,18.33,20,0,0,0.0,0
+30,GREEN,lane_1,8,22,Highest traffic priority,3,3,25.02,0,0,0,0.0,0,1,1,19.33,21,0,0,0.0,0
+31,GREEN,lane_1,7,22,Highest traffic priority,3,3,26.02,0,0,0,0.0,0,1,1,20.33,22,0,0,0.0,0
+32,GREEN,lane_1,6,22,Highest traffic priority,3,3,27.02,0,0,0,0.0,0,0,2,0.0,23,0,0,0.0,0
+33,GREEN,lane_1,5,22,Highest traffic priority,4,4,14.53,0,0,0,0.0,0,0,1,0.0,24,0,0,0.0,0
+34,GREEN,lane_1,4,22,Highest traffic priority,2,2,1.18,0,1,1,0.47,1,0,0,0.0,0,0,0,0.0,0
+35,GREEN,lane_1,3,22,Highest traffic priority,1,1,2.2,0,1,1,1.47,2,0,0,0.0,0,0,0,0.0,0
+36,GREEN,lane_1,2,22,Highest traffic priority,1,1,3.2,0,1,1,2.47,3,0,1,0.0,1,0,0,0.0,0
+37,GREEN,lane_1,1,22,Highest traffic priority,1,1,4.2,0,1,1,3.47,4,0,0,0.0,0,0,0,0.0,0
+38,YELLOW,lane_1,3,22,,0,1,0.0,1,1,1,4.47,5,1,1,0.13,1,0,0,0.0,0
+39,YELLOW,lane_1,2,22,,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+40,YELLOW,lane_1,1,22,,0,0,0.0,0,1,1,6.47,1,0,0,0.0,0,0,0,0.0,0
+41,ALL_RED,NONE,1,22,,1,1,0.07,1,0,0,0.0,0,0,1,0.0,1,0,0,0.0,0
+42,GREEN,lane_2,14,14,Highest traffic priority,0,0,0.0,0,1,1,8.47,0,0,0,0.0,0,0,0,0.0,0
+43,GREEN,lane_2,13,14,Highest traffic priority,2,2,0.38,1,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+44,GREEN,lane_2,12,14,Highest traffic priority,2,2,0.82,2,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+45,GREEN,lane_2,11,14,Highest traffic priority,0,1,0.0,3,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+46,GREEN,lane_2,10,14,Highest traffic priority,0,1,0.0,4,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+47,GREEN,lane_2,9,14,Highest traffic priority,0,1,0.0,5,1,1,13.47,0,0,0,0.0,0,0,0,0.0,0
+48,GREEN,lane_2,8,14,Highest traffic priority,0,0,0.0,0,0,0,0.0,0,1,1,10.13,1,0,0,0.0,0
+49,GREEN,lane_2,7,14,Highest traffic priority,0,0,0.0,0,1,1,15.47,0,0,2,0.0,2,0,0,0.0,0
+50,GREEN,lane_2,6,14,Highest traffic priority,0,0,0.0,0,1,1,16.47,0,0,1,0.0,3,0,0,0.0,0
+51,GREEN,lane_2,5,14,Highest traffic priority,0,0,0.0,0,1,1,17.47,0,0,0,0.0,0,0,2,0.0,1
+52,GREEN,lane_2,4,14,Highest traffic priority,0,0,0.0,0,1,1,18.47,0,0,0,0.0,0,0,0,0.0,0
+53,GREEN,lane_2,3,14,Highest traffic priority,0,0,0.0,0,1,1,19.47,0,0,1,0.0,1,0,0,0.0,0
+54,GREEN,lane_2,2,14,Highest traffic priority,0,0,0.0,0,1,1,20.47,0,0,1,0.0,2,0,0,0.0,0
+55,GREEN,lane_2,1,14,Highest traffic priority,0,0,0.0,0,1,2,21.47,0,0,0,0.0,0,0,0,0.0,0
+56,YELLOW,lane_2,3,14,,0,0,0.0,0,2,2,11.35,1,0,0,0.0,0,0,0,0.0,0
+57,YELLOW,lane_2,2,14,,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+58,YELLOW,lane_2,1,14,,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+59,ALL_RED,NONE,1,14,,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0,0,0,0.0,0
+60,GREEN,lane_2,19,19,Highest traffic priority,0,1,0.0,1,1,1,26.47,0,0,0,0.0,0,0,0,0.0,0
+61,GREEN,lane_2,18,19,Highest traffic priority,0,1,0.0,2,1,2,27.47,0,0,2,0.0,1,0,0,0.0,0
+62,GREEN,lane_2,17,19,Highest traffic priority,0,1,0.0,3,2,2,14.62,0,0,0,0.0,0,1,1,0.1,1
+63,GREEN,lane_2,16,19,Highest traffic priority,0,2,0.0,4,2,2,15.62,0,0,0,0.0,0,1,1,1.1,2
+64,GREEN,lane_2,15,19,Highest traffic priority,0,0,0.0,0,2,2,0.47,0,0,1,0.0,1,1,2,2.1,3
+65,GREEN,lane_2,14,19,Highest traffic priority,0,0,0.0,0,2,2,1.47,0,0,0,0.0,0,2,2,1.55,4
+66,GREEN,lane_2,13,19,Highest traffic priority,0,1,0.0,1,2,2,2.47,0,0,1,0.0,1,2,2,2.1,5
+67,GREEN,lane_2,12,19,Highest traffic priority,0,0,0.0,0,2,2,3.47,0,0,0,0.0,0,1,1,5.1,6
+68,GREEN,lane_2,11,19,Highest traffic priority,0,0,0.0,0,2,2,4.47,0,0,0,0.0,0,2,2,3.15,7
+69,GREEN,lane_2,10,19,Highest traffic priority,0,0,0.0,0,2,2,5.47,0,0,0,0.0,0,1,1,7.1,8
+70,GREEN,lane_2,9,19,Highest traffic priority,0,0,0.0,0,2,2,6.47,0,0,0,0.0,0,1,1,8.1,9
+71,GREEN,lane_2,8,19,Highest traffic priority,0,0,0.0,0,2,2,7.47,0,0,0,0.0,0,1,2,9.1,10
+72,GREEN,lane_2,7,19,Highest traffic priority,0,0,0.0,0,2,2,8.47,0,0,0,0.0,0,2,3,5.35,11
+73,GREEN,lane_2,6,19,Highest traffic priority,0,0,0.0,0,2,2,9.47,0,0,0,0.0,0,1,1,11.1,12
+74,GREEN,lane_2,5,19,Highest traffic priority,0,0,0.0,0,2,2,10.47,0,0,0,0.0,0,1,2,12.1,13
+75,GREEN,lane_2,4,19,Highest traffic priority,0,0,0.0,0,2,2,11.47,0,0,0,0.0,0,2,2,6.8,14
+76,GREEN,lane_2,3,19,Highest traffic priority,0,1,0.0,1,3,3,8.47,0,0,0,0.0,0,2,2,7.8,15
+77,GREEN,lane_2,2,19,Highest traffic priority,0,0,0.0,0,3,3,9.47,0,0,1,0.0,1,2,2,8.8,16
+78,GREEN,lane_2,1,19,Highest traffic priority,1,1,0.43,1,2,3,7.33,0,1,1,0.07,2,2,2,9.8,17
+79,YELLOW,lane_2,3,19,,1,1,0.27,2,1,3,0.9,1,1,1,1.07,3,2,3,10.8,18
+80,YELLOW,lane_2,2,19,,1,1,0.13,3,0,2,0.0,2,1,1,2.07,4,2,2,11.8,19
+81,YELLOW,lane_2,1,19,,1,1,0.13,4,0,2,0.0,3,1,1,3.07,5,2,2,12.8,20
+82,ALL_RED,NONE,1,19,,1,1,0.4,5,0,1,0.0,4,1,1,4.07,6,1,2,7.5,21
+83,GREEN,lane_4,10,10,GDC starvation prevention,1,1,1.4,6,0,0,0.0,0,1,1,5.07,7,0,1,0.0,0
+84,GREEN,lane_4,9,10,GDC starvation prevention,1,1,0.2,7,0,0,0.0,0,1,1,6.07,8,0,2,0.0,0
+85,GREEN,lane_4,8,10,GDC starvation prevention,0,0,0.0,0,0,0,0.0,0,1,1,7.07,9,0,2,0.0,0
+86,GREEN,lane_4,7,10,GDC starvation prevention,2,2,1.28,1,1,1,0.37,1,1,1,8.07,10,0,1,0.0,0
+87,GREEN,lane_4,6,10,GDC starvation prevention,1,1,3.2,2,2,2,0.73,2,1,1,9.07,11,0,0,0.0,0
+88,GREEN,lane_4,5,10,GDC starvation prevention,1,1,4.2,3,1,1,2.37,3,1,1,10.07,12,0,0,0.0,0
+89,GREEN,lane_4,4,10,GDC starvation prevention,1,1,5.2,4,1,1,3.37,4,1,1,11.07,13,0,0,0.0,0
+90,GREEN,lane_4,3,10,GDC starvation prevention,1,1,6.2,5,0,0,0.0,0,1,1,12.07,14,0,0,0.0,0
+91,GREEN,lane_4,2,10,GDC starvation prevention,1,1,7.2,6,0,0,0.0,0,1,1,13.07,15,0,0,0.0,0
+92,GREEN,lane_4,1,10,GDC starvation prevention,1,1,8.2,7,0,1,0.0,1,1,1,14.07,16,0,0,0.0,0
+93,YELLOW,lane_4,3,10,,1,1,9.2,8,1,1,0.5,2,1,1,15.07,17,0,0,0.0,0
+94,YELLOW,lane_4,2,10,,2,2,6.23,9,1,1,1.5,3,1,1,16.07,18,0,0,0.0,0
+95,YELLOW,lane_4,1,10,,2,2,7.23,10,1,1,2.5,4,1,1,17.07,19,0,1,0.0,1
+96,ALL_RED,NONE,1,10,,2,2,8.23,11,1,1,3.5,5,1,1,18.07,20,0,1,0.0,2
+97,GREEN,lane_3,17,17,GDC starvation prevention,2,2,9.23,12,1,1,4.5,6,1,1,19.07,0,0,2,0.0,3
+98,GREEN,lane_3,16,17,GDC starvation prevention,2,2,10.23,13,1,2,5.5,7,1,1,20.07,0,0,1,0.0,4
+99,GREEN,lane_3,15,17,GDC starvation prevention,2,2,11.23,14,1,1,6.5,8,1,1,21.07,0,2,2,0.58,5
+100,GREEN,lane_3,14,17,GDC starvation prevention,1,1,16.2,15,0,1,0.0,9,1,1,22.07,0,1,2,1.73,6
+101,GREEN,lane_3,13,17,GDC starvation prevention,1,1,17.2,16,0,0,0.0,0,1,1,23.07,0,1,1,0.87,7
+102,GREEN,lane_3,12,17,GDC starvation prevention,1,1,18.2,17,0,0,0.0,0,1,1,24.07,0,0,0,0.0,0
+103,GREEN,lane_3,11,17,GDC starvation prevention,0,0,0.0,0,0,0,0.0,0,1,1,25.07,0,0,0,0.0,0
+104,GREEN,lane_3,10,17,GDC starvation prevention,1,1,20.2,1,0,0,0.0,0,1,1,26.07,0,0,0,0.0,0
+105,GREEN,lane_3,9,17,GDC starvation prevention,1,1,21.2,2,0,0,0.0,0,1,1,27.07,0,0,0,0.0,0
+106,GREEN,lane_3,8,17,GDC starvation prevention,1,1,22.2,3,0,0,0.0,0,1,1,28.07,0,0,0,0.0,0
+107,GREEN,lane_3,7,17,GDC starvation prevention,1,1,23.2,4,0,0,0.0,0,1,1,29.07,0,1,1,0.23,1
+108,GREEN,lane_3,6,17,GDC starvation prevention,1,1,24.2,5,0,0,0.0,0,1,1,30.07,0,1,1,1.23,2
+109,GREEN,lane_3,5,17,GDC starvation prevention,1,1,25.2,6,0,1,0.0,1,1,1,31.07,0,1,1,2.23,3
+110,GREEN,lane_3,4,17,GDC starvation prevention,2,2,13.1,7,0,0,0.0,0,1,1,32.07,0,1,1,3.23,4
+111,GREEN,lane_3,3,17,GDC starvation prevention,2,2,14.1,8,0,1,0.0,1,1,1,33.07,0,1,1,4.23,5
+112,GREEN,lane_3,2,17,GDC starvation prevention,0,2,0.0,9,1,1,0.33,2,1,1,34.07,0,1,1,5.23,6
+113,GREEN,lane_3,1,17,GDC starvation prevention,0,1,0.0,10,2,2,0.87,3,0,1,0.0,0,1,1,6.23,7
+114,YELLOW,lane_3,3,17,,1,1,0.87,11,1,2,2.33,4,0,1,0.0,1,1,1,7.23,8
+115,YELLOW,lane_3,2,17,,1,1,1.87,12,1,1,3.33,5,0,0,0.0,0,1,1,8.23,9
+116,YELLOW,lane_3,1,17,,2,2,1.53,13,1,1,4.33,6,0,1,0.0,1,1,1,9.23,10
+117,ALL_RED,NONE,1,17,,0,0,0.0,0,1,1,5.33,7,0,1,0.0,2,1,1,10.23,11
+118,GREEN,lane_4,15,15,Highest traffic priority,0,0,0.0,0,1,1,6.33,8,0,2,0.0,3,1,1,11.23,0
+119,GREEN,lane_4,14,15,Highest traffic priority,0,0,0.0,0,1,1,6.4,9,0,2,0.0,4,1,1,11.3,0
