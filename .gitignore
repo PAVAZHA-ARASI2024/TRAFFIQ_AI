@@ -1,0 +1,31 @@
+﻿# Python environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Git
+.git/
+
+# YOLO model weights
+*.pt
+*.onnx
+*.engine
+
+# Large video and media files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated runs and temporary outputs
+runs/
+TRAFFIQ_AUDIT/
+TRAFFIQ_AUDIT.zip
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --bg: #f8faff;
+    --card-bg: #ffffff;
+    --soft-bg: #f0f4fe;
+    --text-dark: #1a2639;
+    --text-muted: #3e4a5e;
+    --accent: #2a7de1;
+    --accent-light: #e6effd;
+    --border-light: #e9edf4;
+    --shadow: 0 12px 30px -8px rgba(0, 20, 40, 0.08);
+    --radius: 20px;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+.stApp {
+    background: var(--bg);
+    color: var(--text-dark);
+}
+
+.block-container {
+    max-width: 1450px;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+h1, h2, h3 {
+    color: var(--text-dark) !important;
+    font-weight: 700 !important;
+}
+
+header[data-testid="stHeader"] {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+div[data-testid="stMetric"] {
+    background: var(--card-bg);
+    border: 1px solid var(--border-light);
+    padding: 22px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+div[data-testid="stMetricValue"] {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+div[role="radiogroup"] {
+    background: white;
+    padding: 10px;
+    border: 1px solid var(--border-light);
+    border-radius: 18px;
+    gap: 10px;
+}
+
+div[role="radiogroup"] label {
+    background: var(--soft-bg);
+    padding: 9px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.stButton button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.stButton button:hover {
+    background: #1f6fd6;
+    color: white;
+}
+
+div[data-testid="stDataFrame"] {
+    border: 1px solid var(--border-light);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.signal-card {
+    background: white;
+    border: 1px solid var(--border-light);
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--shadow);
+}
+
+.signal-light {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px;
+}
+
+.signal-green {
+    background: #16a34a;
+}
+
+.signal-yellow {
+    background: #eab308;
+}
+
+.signal-red {
+    background: #dc2626;
+}
+
+.small-label {
+    color: #68758a;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer {
+    text-align: center;
+    padding: 24px;
+    color: #68758a;
+    border-top: 1px solid var(--border-light);
+    margin-top: 35px;
+    font-size: 13px;
+}
